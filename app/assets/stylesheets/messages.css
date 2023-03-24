@@ -1,0 +1,44 @@
+.wrapper{
+  display: flex
+}
+
+.main{
+  background-color: #ffffff;
+  width: calc(100vw - 300px);
+  height: 100vh;
+}
+
+.side{
+  background-color: #253141;
+  width: 300px;
+  height: 100vh;
+}
+
+.side-top{
+  height: 100px;
+  background-color: #253141;
+  padding: 0 20px;
+}
+
+.side-bottom{
+  height: calc(100Vh - 100px);
+  background-color: #2F3E51;
+  padding: 0 20px;
+}
+
+.main-top{
+  height: 100px;
+  padding: 0 40px;
+}
+
+.main-middle{
+  height: calc(100vh - 100px - 90px);
+  background-color: #FAFAFA;
+  padding: 46px 40px 0;
+}
+
+.main-bottom{
+  height: 90px;
+  background-color: #DDDDDD;
+  padding: 20px 40px;
+}
